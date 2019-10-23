@@ -1,0 +1,27 @@
+<style>
+.button {
+    background-color: black; /* Green */
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+ 
+  }
+
+</style>
+
+
+<body><br>
+    <center><h1>the audio</h1></center><br><br>
+    <div id="waveform"></div><br>
+    <center><button class="button" data-action="play" onclick="wavesurfer.playPause()">Play / Pause</button></center>
+
+
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <script src="static/js/wave.js"></script>
+</body>
